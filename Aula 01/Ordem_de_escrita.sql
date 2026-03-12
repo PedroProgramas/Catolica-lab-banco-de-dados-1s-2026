@@ -1,0 +1,4 @@
+DROP DATABASE biblioteca_pessoal_1s2026;
+CREATE DATABASE biblioteca_pessoal_1s2026;
+USE biblioteca_pessoal_1s2026;
+show tables biblioteca_pessoal_1s2026;
