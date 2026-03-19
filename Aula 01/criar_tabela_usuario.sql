@@ -1,3 +1,4 @@
+CREATE DATABASE biblioteca_pessoal_1S2026;
 USE biblioteca_pessoal_1S2026;
 
 CREATE TABLE Usuario (
@@ -6,3 +7,4 @@ CREATE TABLE Usuario (
         email VARCHAR(128) NOT NULL UNIQUE,
         data_cadastro DATE DEFAULT(current_date) NOT NULL
 );
+show tables;
