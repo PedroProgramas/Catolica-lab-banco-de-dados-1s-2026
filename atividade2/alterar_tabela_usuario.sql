@@ -1,0 +1,7 @@
+CREATE DATABASE atividade2;
+USE atividade1;
+
+ALTER TABLE Usuario
+ADD COLUMN senha VARCHAR(255) NOT NULL AFTER email,
+MODIFY COLUMN data_cadastro TIMESTAMP,
+ADD COLUMN data_atualizacao TIMESTAMP;
